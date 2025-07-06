@@ -1,0 +1,44 @@
+#SideBar {
+    /* height: calc(100vh - 80px); */
+    height: 100vh;
+    background-color: var(--nav-bar-color);
+}
+
+#SideBar {
+    width: 8%;
+}
+
+#SideBar nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#SideBar nav ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SideBar nav ul li a {
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    max-height: 80px;
+    min-height: 80px;
+    font-size: 12px;
+}
+
+#SideBar nav ul li a iconify-icon {
+    font-size: 28px;
+}
+
+#SideBar nav ul li a.active {
+    background-color: var(--theme-color);
+}
